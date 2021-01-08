@@ -1,1 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Catamaran&family=Lato&family=Mulish&display=swap');
+
+h1, h2, h3, h4, h5, h6, .top-navbar {
+	font-family: 'Catamaran', Helvetica, Arial, sans-serif;
+}
+button, .top-navbar a {
+	font-family: 'Lato', Helvetica, Arial, sans-serif;
+}
+p, footer {
+	font-family: 'Mulish', Helvetica, Arial, sans-serif;
+}
+.top-navbar .navbar-brand {
+    color: rgb(255, 210, 72);
+    font-size: 1.5rem;
+}
+.top-navbar .navbar-brand:hover, .top-navbar .navbar-nav .nav-link:hover {
+    color: rgb(255, 255, 255);
+}
