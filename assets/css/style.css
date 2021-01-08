@@ -16,3 +16,21 @@ p, footer {
 .top-navbar .navbar-brand:hover, .top-navbar .navbar-nav .nav-link:hover {
     color: rgb(255, 255, 255);
 }
+.section-one {
+    background: url("/assets/img/bg-pattern.png"), linear-gradient(90deg, rgb(218, 37, 52), rgb(128, 65, 144));
+}
+.start-now-btn:hover {
+    background-color: #fdcc52;
+    border-color:#fdcc52;
+    transition: all 300ms;
+}
+.telephone-photos-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.inner-phone {
+    position: absolute;
+    top: 83px;
+    right: 202px;
+}
