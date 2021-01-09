@@ -30,7 +30,7 @@ p, footer {
 	display: flex;
 	position: relative;
 	justify-content: center;
-	max-width: 18rem;
+    max-width: 18rem;
 }
 .phone-img {
 	max-width: 100%;
@@ -41,9 +41,22 @@ p, footer {
 	right: 1.05rem;
 	max-width: 88%;
 }
+.inner-phone-2 {
+	position: absolute;
+	top: 3.9rem;
+	right: 2rem;
+	max-width: 77.5%;
+}
 .section-two {
     background-color: rgb(253, 203, 80);
 }
 .section-two img {
     width: 268px;
+}
+.section-three img {
+    width: 100%;
+}
+.icon {
+    font-size: 4.5rem;
+    color: rgb(186, 50, 90);
 }
