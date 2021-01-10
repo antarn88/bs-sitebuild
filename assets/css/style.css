@@ -85,3 +85,39 @@ p, footer {
 .img-container button {
 	margin-bottom: 11rem;
 }
+.section-five {
+	background-color: rgba(253, 203, 78, .9);
+}
+.section-five:hover {
+	background-color: rgba(253, 203, 78, 1);
+}
+.heart-symbol {
+	color: rgb(221, 76, 57);
+}
+.twitter-container {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	background-color:rgb(29, 161, 243);
+	font-size: 2.5rem;
+	line-height: 2.4;
+	color: rgb(255, 255, 255);
+}
+.facebook-container {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	background-color:rgb(59, 89, 153);
+	font-size: 2.5rem;
+	line-height: 2.4;
+	color: rgb(255, 255, 255);
+}
+.google-plus-container {
+	width: 6rem;
+	height: 6rem;
+	border-radius: 50%;
+	background-color:rgb(221, 76, 57);
+	font-size: 2.5rem;
+	line-height: 2.4;
+	color: rgb(255, 255, 255);
+}
