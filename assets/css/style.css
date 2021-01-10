@@ -32,6 +32,13 @@ p, footer {
 	justify-content: center;
     max-width: 18rem;
 }
+.telephone-photos-container2 {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	min-width: 21rem;
+	max-width: 22rem;
+}
 .phone-img {
 	max-width: 100%;
 }
@@ -43,9 +50,9 @@ p, footer {
 }
 .inner-phone-2 {
 	position: absolute;
-	top: 3.9rem;
-	right: 2rem;
-	max-width: 77.5%;
+	top: 4.55rem;
+	right: 2.15rem;
+	max-width: 80%;
 }
 .section-two {
     background-color: rgb(253, 203, 80);
@@ -59,4 +66,22 @@ p, footer {
 .icon {
     font-size: 4.5rem;
     color: rgb(186, 50, 90);
+}
+.section-four {
+	background-image: url("/assets/img/bg-cta.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.first-title {
+	margin-top: 10rem;
+}
+.img-container-filtered {
+	background-color: rgba(0, 0, 0, .4);
+}
+.img-container-filtered button:hover {
+	background-color: #fdcc52;
+	border: 1px solid #fdcc52;
+}
+.img-container button {
+	margin-bottom: 11rem;
 }
